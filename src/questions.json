@@ -1,0 +1,129 @@
+{
+    "questions": [
+        {
+            "question": "Arrange the cities in the order of top to bottom in geographical location in india?",
+            "options": [
+                {
+                    "name": "Hyderabad",
+                    "answerPosition": 4
+                },
+                {
+                    "name": "New Delhi",
+                    "answerPosition": 1
+                },
+                {
+                    "name": "Kolkatta",
+                    "answerPosition": 3
+                },
+                {
+                    "name": "Thiruvananthapuram",
+                    "answerPosition": 5
+                },
+                {
+                    "name": "Surat",
+                    "answerPosition": 2
+                }
+            ]
+        },
+        {
+            "question": "Staring from the highest, arrange the following geometrical figures in the descending order of the number of corners they have",
+            "options": [
+                {
+                    "name": "Triangle",
+                    "answerPosition": 5
+                },
+                {
+                    "name": "Square",
+                    "answerPosition": 4
+                },
+                {
+                    "name": "Hexagon",
+                    "answerPosition": 2
+                },
+                {
+                    "name": "Pentagon",
+                    "answerPosition": 3
+                },
+                {
+                    "name": "Octagon",
+                    "answerPosition": 1
+                }
+            ]
+        },
+        {
+            "question": "Starting from the smallest, arrange these birds in increasing order of their average size and height",
+            "options": [
+                {
+                    "name": "Sparrow",
+                    "answerPosition": 5
+                },
+                {
+                    "name": "Ostrich",
+                    "answerPosition": 1
+                },
+                {
+                    "name": "Pigeon",
+                    "answerPosition": 4
+                },
+                {
+                    "name": "Peakock",
+                    "answerPosition": 2
+                },
+                {
+                    "name": "Falcon",
+                    "answerPosition": 3
+                }
+            ]
+        },
+        {
+            "question": "Arrange the following mathematical operators in the order of their precedence, from highest to lowest:",
+            "options": [
+                {
+                    "name": "+ (Addition)",
+                    "answerPosition": 4
+                },
+                {
+                    "name": "* (Multiplication)",
+                    "answerPosition": 3
+                },
+                {
+                    "name": "Powers (Exponents)",
+                    "answerPosition": 1
+                },
+                {
+                    "name": "- (Subtraction)",
+                    "answerPosition": 5
+                },
+                {
+                    "name": "/ (Division)",
+                    "answerPosition": 2
+                }
+            ]
+        },
+        {
+            "question": "John wants to become fit for which he decided to walk to the office and return home by walking. It is known that John's office is X km away from his home.\nIf his office is open on 5 days in a week,Leo want to find the number of kilometers John travels through office trips in a week.Arrange the algorithm steps to find the distance,",
+            "options": [
+                {
+                    "name": "print the distance(output)",
+                    "answerPosition": 5
+                },
+                {
+                    "name": "take the distance of office from John(input)",
+                    "answerPosition": 1
+                },
+                {
+                    "name": "analyzing the formula to calculate distance",
+                    "answerPosition": 2
+                },
+                {
+                    "name": "assigning the calucated distance to  variable",
+                    "answerPosition": 4
+                },
+                {
+                    "name": "distance*5(as he travels only 5 days a week)",
+                    "answerPosition": 3
+                }
+            ]
+        }
+    ]
+}
