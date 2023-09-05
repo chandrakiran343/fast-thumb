@@ -44,9 +44,9 @@ const LeaderBoard = () => {
 
     return (
         <div className="h-full bg-white flex flex-col items-center justify-center w-full">
-            <h1 className="text-4xl text-start text-chrysler_blue font-bold py-4">Fast Thumb</h1>
-            <div className="w-[80%] flex justify-between">
-                <h2 className="md:text-4xl text-md text-fandango font-bold pb-4">LeaderBoard</h2>
+            {/* <h1 className="text-4xl text-start text-chrysler_blue font-bold py-4">Fast Thumb</h1> */}
+                <h2 className="md:text-4xl text-2xl text-fandango font-bold pb-4">LeaderBoard</h2>
+            <div className="w-[80%] flex justify-end">
                 <h2 className="md:text-3xl text-md text-rose font-bold ">Total participants are: {users}</h2>
             </div>
             <div className="w-full h-[85%] flex justify-center overflow-scroll">

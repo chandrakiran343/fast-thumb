@@ -112,7 +112,7 @@ export function DndList({ data, time, submitted, question, start, setScore }: Dn
                           <Text className='md:text-xl text-md text-black font-bold mx-4'>{item.name}</Text>
                           {
                             submitted &&
-                            <div className='rounded-full px-2 bg-teal-700 bg-teal-300'>
+                            <div className='rounded-full px-2 bg-vivid_sky_blue bg-teal-300'>
                               <Text className='text-black font-bold'>{item.answerPosition}</Text>
                             </div>
                           }
