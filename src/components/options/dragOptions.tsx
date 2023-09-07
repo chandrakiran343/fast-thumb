@@ -68,7 +68,9 @@ export function DndList({ data, time, submitted, question, start, setScore }: Dn
   useEffect(() => {
     let score = evaluate();
     console.log(state)
-    score += Math.floor((time) * (score / 10));
+    let time_penalty = Math.floor((45 / (45 - time + 1))) * score
+    score += time_penalty
+    score = Math.max(score, 0)
     if (question === 0) {
       score = 0
     }

@@ -1,9 +1,7 @@
 {
-    "questions": [
-        {
-            "question": "Arrange the cities in the order of top to bottom in geographical location in india?",
-            "options": [
-                {
+    "questions": [{
+            "question": "Arrange the cities from top to bottom referring to it's geographical location in india?",
+            "options": [{
                     "name": "Hyderabad",
                     "answerPosition": 4
                 },
@@ -26,59 +24,52 @@
             ]
         },
         {
-            "question": "Staring from the highest, arrange the following geometrical figures in the descending order of the number of corners they have",
-            "options": [
-                {
-                    "name": "Triangle",
-                    "answerPosition": 5
-                },
-                {
-                    "name": "Square",
+            "question": "What are the steps to take when you suspect your social media account has been compromised?",
+            "options": [{
+                    "name": "Following cyber well being and precautions",
                     "answerPosition": 4
                 },
                 {
-                    "name": "Hexagon",
+                    "name": "Resetting or Logging out from all devices",
+                    "answerPosition": 1
+                },
+                {
+                    "name": "Reporting to the platform and cyber police",
                     "answerPosition": 2
                 },
                 {
-                    "name": "Pentagon",
+                    "name": "Alerting your friends and relatives",
                     "answerPosition": 3
                 },
                 {
-                    "name": "Octagon",
-                    "answerPosition": 1
+                    "name": "Spreading awareness",
+                    "answerPosition": 5
                 }
             ]
         },
         {
-            "question": "Starting from the smallest, arrange these birds in increasing order of their average size and height",
-            "options": [
-                {
-                    "name": "Sparrow",
-                    "answerPosition": 5
-                },
-                {
-                    "name": "Ostrich",
-                    "answerPosition": 1
-                },
-                {
-                    "name": "Pigeon",
-                    "answerPosition": 4
-                },
-                {
-                    "name": "Peakock",
+            "question": "Rearrange the following letters to form a word: ",
+            "options": [{
+                    "name": "Y",
                     "answerPosition": 2
                 },
                 {
-                    "name": "Falcon",
+                    "name": "E",
+                    "answerPosition": 4
+                },
+                {
+                    "name": "T",
                     "answerPosition": 3
+                },
+                {
+                    "name": "B",
+                    "answerPosition": 1
                 }
             ]
         },
         {
             "question": "Arrange the following mathematical operators in the order of their precedence, from highest to lowest:",
-            "options": [
-                {
+            "options": [{
                     "name": "+ (Addition)",
                     "answerPosition": 4
                 },
@@ -101,14 +92,13 @@
             ]
         },
         {
-            "question": "John wants to become fit for which he decided to walk to the office and return home by walking. It is known that John's office is X km away from his home.\nIf his office is open on 5 days in a week,Leo want to find the number of kilometers John travels through office trips in a week.Arrange the algorithm steps to find the distance,",
-            "options": [
-                {
+            "question": "John wants to become fit for which he decided to walk to the office and return home by walking. It is known that John's office is X km away from his home.\nHis office is open for 5 days a week. Leo wants to find the number of kilometers John travels through office trips in a week. Arrange the algorithm steps to find the distance.",
+            "options": [{
                     "name": "print the distance(output)",
                     "answerPosition": 5
                 },
                 {
-                    "name": "take the distance of office from John(input)",
+                    "name": "take the distance from John's House to his Office(input)",
                     "answerPosition": 1
                 },
                 {
@@ -116,11 +106,11 @@
                     "answerPosition": 2
                 },
                 {
-                    "name": "assigning the calucated distance to  variable",
+                    "name": "assigning the calucated distance to a variable",
                     "answerPosition": 4
                 },
                 {
-                    "name": "distance*5(as he travels only 5 days a week)",
+                    "name": "distance*5*2(as he travels 5 days a week from home to office and vice versa)",
                     "answerPosition": 3
                 }
             ]

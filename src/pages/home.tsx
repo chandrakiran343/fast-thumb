@@ -14,7 +14,7 @@ import { question, userType } from "../types";
 
 const HomePage = () => {
 
-    const [time, setTime] = useState(parseInt(localStorage.getItem("time")!) || 120);
+    const [time, setTime] = useState(parseInt(localStorage.getItem("time")!) || 45);
     const [submitted, setSubmitted] = useState(false);
 
     const nav = useNavigate()
@@ -43,8 +43,11 @@ const HomePage = () => {
 
 
     useEffect(() => {
+
+        
+
         if (!localStorage.getItem("time")) {
-            localStorage.setItem("time", "120")
+            localStorage.setItem("time", "45")
         }
         if (!localStorage.getItem("question")) {
             localStorage.setItem("question", "1")
@@ -79,7 +82,7 @@ const HomePage = () => {
             if (doc.exists()) {
                 const data = doc.data()
                 if (data.start) {
-                    localStorage.setItem("time", "120")
+                    localStorage.setItem("time", "45")
                     // localStorage.removeItem("submitted")
                     setStart(true)
                 }
@@ -123,20 +126,20 @@ const HomePage = () => {
     useEffect(() => {
 
         if (time <= 0) {
-            localStorage.setItem("time", "120")
-            setTime(120)
+            localStorage.setItem("time", "45")
+            setTime(45)
         }
         if (start && !loading && !submitted ) {
             const interval = setInterval(() => {
                 if (submitted) {
-                    localStorage.setItem("time", "120")
+                    localStorage.setItem("time", "45")
                     clearInterval(interval)
                     return
                 }
                 setTime((prev) => {
                     if (prev <= 1) {
                         clearInterval(interval)
-                        localStorage.setItem("time", "120")
+                        localStorage.setItem("time", "45")
                     }
                     localStorage.setItem("time", (prev - 2).toString())
                     return prev - 1
@@ -154,7 +157,7 @@ const HomePage = () => {
     const handleAnswerSubmit = async () => {
         const updatedQuestions: question[] = user.questions
         setLoading(true);
-        updatedQuestions.push({ questionId: question, timeTaken: 120 - time })
+        updatedQuestions.push({ questionId: question, timeTaken: 45 - time })
 
         await updateUser(user.id, user.score + evalScore, updatedQuestions).then(() => {
             setLoading(false)
@@ -199,7 +202,7 @@ const HomePage = () => {
 
                 <RingProgress roundCaps size={window.innerHeight > 700 ? 150 : 80} thickness={10}
                     label={<Text className="md:text-4xl text-lg text-rose">{time}</Text>}
-                    sections={[{ value: ((120 - time) / 12) * 10, color: "teal" }]}>
+                    sections={[{ value: ((45 - time) / 12) * 10, color: "teal" }]}>
                 </RingProgress>
 
                 {/* {!submitted && <Text>{correctAnswer.map((e)=>e.name)}</Text>} */}
@@ -236,7 +239,7 @@ const HomePage = () => {
                         return
                     }
                     setSubmitted(true)
-                    localStorage.setItem("time", "120");
+                    localStorage.setItem("time", "45");
                     handleAnswerSubmit()
                 }}
                 className="text-lg rounded-full mt-1 click:bg-teal font-bold text-grape-900 bg-gradient-to-r from-rose to-chrysler_blue"
